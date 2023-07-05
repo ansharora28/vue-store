@@ -2,7 +2,9 @@ const app = Vue.createApp({
     data() {
         return {
             product: 'Socks',
-            description: 'A pair of woollen socks'
+            image: './assets/images/socks_green.jpg',
+            url: 'https://mightwritehere.netlify.app/'
         }
     }
 })
+
